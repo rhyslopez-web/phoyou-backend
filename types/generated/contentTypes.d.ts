@@ -425,6 +425,7 @@ export interface ApiMenuMenu extends Struct.CollectionTypeSchema {
       'oneToMany',
       'api::menu-category.menu-category'
     >;
+    Price: Schema.Attribute.Decimal;
     publishedAt: Schema.Attribute.DateTime;
     Title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
